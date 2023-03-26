@@ -1,8 +1,8 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	name: "The money Tree",
+	id: "mymodyybshchdbdnmx,kjhgfghjkl;swedrftgyhujklp;drctfvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
+	author: "nobodmon",
+	pointsName: "cents",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -14,7 +14,7 @@ let modInfo = {
 // Set your version in num and name
 let VERSION = {
 	num: "0.0",
-	name: "Literally nothing",
+	name: "Literally nothing lol",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
@@ -30,6 +30,17 @@ var doNotCallTheseFunctionsEveryTick = ["blowUpEverything"]
 
 function getStartPoints(){
     return new Decimal(modInfo.initialStartPoints)
+
+
+
+
+
+
+
+
+
+
+
 }
 
 // Determines if it should show points/sec
@@ -42,7 +53,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(1)
+	let gain = new Decimal(6)
 	return gain
 }
 
