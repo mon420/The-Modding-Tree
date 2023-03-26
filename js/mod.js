@@ -2,13 +2,13 @@ let modInfo = {
 	name: "The money Tree",
 	id: "mymodyybshchdbdnmx,kjhgfghjkl;swedrftgyhujklp;drctfvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
 	author: "nobodmon",
-	pointsName: "cents",
+	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	initialStartPoints: new Decimal (100), // Used for hard resets and new players
+	offlineLimit: 10,  // In hours
 }
 
 // Set your version in num and name
@@ -53,7 +53,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(6)
+	let gain = new Decimal(6*Decimal)
 	return gain
 }
 
@@ -67,7 +67,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("e2800000000000000000000000000000"))
 }
 
 
