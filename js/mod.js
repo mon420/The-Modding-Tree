@@ -1,6 +1,6 @@
 let modInfo = {
 	name: "The money Tree",
-	id: "mymodyybshchdbdnmx,kjhgfghjkl;swedrftgyhujklp;drctvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
+	id: "mymodyybshchdbdnmx,kjhgfgtfwedrftgyhujklp;drctvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
 	author: "nobodmon",
 	pointsName: "cents",
 	modFiles: ["layers.js", "tree.js"],
@@ -53,7 +53,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(6*Decimal)
+	let gain = new Decimal(6)
 	return gain
 }
 
