@@ -1,8 +1,8 @@
 let modInfo = {
 	name: "The money Tree",
-	id: "mymodyybshchdbdnmx,kjhgfghjkl;swedrftgyhujklp;drctfvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
+	id: "mymodyybshchdbdnmx,kjhgfghjkl;swedrftgyhujklp;drctvgbfcndnjkdrfekjn.rdfgte4jnfrt54e",
 	author: "nobodmon",
-	pointsName: "points",
+	pointsName: "cents",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
